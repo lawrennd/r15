@@ -12,6 +12,7 @@
     address = {Sydney, Australia},
     conference_url = {https://www.auai.org/uai2017/},
     conference_number = {33},
+    volume = {r15},
     published = {2026-10-04},
     firstpublished = {2017-08-11},
 }
@@ -92,7 +93,7 @@ year = {2017}
 abstract = {We study a variant of the stochastic multi- armed bandit problem where the set of avail- able arms varies arbitrarily with time (also known as the sleeping bandit problem). We focus on the Thompson Sampling algorithm and consider a regret notion defined with re- spect to the best available arm. Our main re- sult is an O(log T) regret bound for Thompson Sampling, which generalizes a similar bound known for this algorithm from the classical bandit setting. Our bound also matches (up to constants) the best-known lower bound for the sleeping bandit problem. We show via simu- lations that Thompson Sampling outperforms the UCB-style AUER algorithm for the sleep- ing bandit problem.},
 author = {Chatterjee, Aritra and Ghalme, Ganesh and Jain, Shweta and Vaish, Rohit and Narahari, Y.},
 pages = {91-100},
-title = {Analysis of Thompson Sampling for Stochastic Sleeping Bandits},
+title = {Analysis of {T}hompson Sampling for Stochastic Sleeping Bandits},
 year = {2017}
 }
 
@@ -300,7 +301,7 @@ year = {2017}
 abstract = {Many hashing methods, especially those that are in the data-dependent category with good learning accuracy, are still inefficient when dealing with three critical problems in mod- ern data analysis. First, data usually come in a streaming fashion, but most of the exist- ing hashing methods are batch-based models. Second, when data become huge, the exten- sive computational time, large space require- ment, and multiple passes to load the data into memory will be prohibitive. Third, data often lack sufficient label information. Although the recently proposed Online Sketching Hashing (OSH) is promising to alleviate all three issues mentioned above, its training procedure still suffers from a high time complexity. In this paper, we propose a FasteR Online Sketching Hashing (FROSH) method to make the train- ing process faster. Compared with OSH, we leverage fast transform to sketch data more compactly. Particularly, we derive indepen- dent transformations to guarantee the sketch- ing accuracy, and design a novel implemen- tation to make such transformations applica- ble to online data sketching without increas- ing the space cost. We rigorously prove that our method can yield a comparable learning accuracy with a lower time complexity and an equal space cost compared with OSH. Finally, extensive experiments on synthetic and real- world datasets demonstrate the excellent per- formance of our method.},
 author = {Chen, Xixian and King, Irwin and Lyu, Michael R.},
 pages = {351-360},
-title = {FROSH: FasteR Online Sketching Hashing},
+title = {{FROSH}: FasteR Online Sketching Hashing},
 year = {2017}
 }
 
@@ -436,7 +437,7 @@ year = {2017}
 abstract = {We propose a simple algorithm to train stochas- tic neural networks to draw samples from given target distributions for probabilistic inference. Our method is based on iteratively adjusting the neural network parameters so that the output changes along a Stein variational gradient di- rection (Liu \& Wang, 2016) that maximally de- creases the KL divergence with the target distri- bution. Our method works for any target dis- tribution specified by their unnormalized density function, and can train any black-box architec- tures that are differentiable in terms of the pa- rameters we want to adapt. We demonstrate our method with a number of applications, including variational autoencoder (VAE) with expressive encoders to model complex latent space struc- tures, and hyper-parameter learning of MCMC samplers that allows Bayesian inference to adap- tively improve itself when seeing more data.},
 author = {Feng, Yihao and Wang, Dilin and Liu, Qiang},
 pages = {521-530},
-title = {Learning to Draw Samples with Amortized Stein Variational Gradient Descent},
+title = {Learning to Draw Samples with Amortized {S}tein Variational Gradient Descent},
 year = {2017}
 }
 
@@ -556,7 +557,7 @@ year = {2017}
 abstract = {Using the flexibility of recently developed methods for causal discovery based on Boolean satisfiability (SAT) solvers, we en- code a variety of assumptions that weaken the Faithfulness assumption. The encoding results in a number of SAT-based algorithms whose asymptotic correctness relies on weaker condi- tions than are standardly assumed. This imple- mentation of a whole set of assumptions in the same platform enables us to systematically ex- plore the effect of weakening the Faithfulness assumption on causal discovery. An important effect, suggested by simulation results, is that adopting weaker assumptions greatly allevi- ates the problem of conflicting constraints and substantially shortens solving time. As a re- sult, SAT-based causal discovery is potentially more scalable under weaker assumptions.},
 author = {Zhalama and Zhang, Jiji and Eberhardt, Frederick and Mayer, Wolfgang},
 pages = {671-680},
-title = {SAT-Based Causal Discovery under Weaker Assumptions},
+title = {{SAT}-Based Causal Discovery under Weaker Assumptions},
 year = {2017}
 }
 
@@ -588,7 +589,7 @@ year = {2017}
 abstract = {We propose a novel adaptive importance sam- pling algorithm which incorporates Stein vari- ational gradient decent algorithm (SVGD) with importance sampling (IS). Our algorithm lever- ages the nonparametric transforms in SVGD to iteratively decrease the KL divergence between importance proposals and target distributions. The advantages of our algorithm are twofold: 1) it turns SVGD into a standard IS algorithm, al- lowing us to use standard diagnostic and ana- lytic tools of IS to evaluate and interpret the re- sults, and 2) it does not restrict the choice of the importance proposals to predefined distribu- tion families like traditional (adaptive) IS meth- ods. Empirical experiments demonstrate that our algorithm performs well on evaluating partition functions of restricted Boltzmann machines and testing likelihood of variational auto-encoders.},
 author = {Han, Jun and Liu, Qiang},
 pages = {711-720},
-title = {Stein Variational Adaptive Importance Sampling},
+title = {{S}tein Variational Adaptive Importance Sampling},
 year = {2017}
 }
 
@@ -596,7 +597,7 @@ year = {2017}
 abstract = {Policy gradient methods have been successfully applied to many complex reinforcement learn- ing problems. However, policy gradient meth- ods suffer from high variance, slow convergence, and inefficient exploration. In this work, we in- troduce a maximum entropy policy optimization framework which explicitly encourages param- eter exploration, and show that this framework can be reduced to a Bayesian inference problem. We then propose a novel Stein variational pol- icy gradient method (SVPG) which combines ex- isting policy gradient methods and a repulsive functional to generate a set of diverse but well- behaved policies. SVPG is robust to random ini- tializations and can easily be implemented in a parallel manner. On several continuous control problems, we find that SVPG versions of RE- INFORCE and advantage actor-critic algorithms are greatly improved in terms of both average re- turn and data efficiency.},
 author = {Liu, Yang and Ramachandran, Prajit and Liu, Qiang and Peng, Jian},
 pages = {721-729},
-title = {Stein Variational Policy Gradient},
+title = {{S}tein Variational Policy Gradient},
 year = {2017}
 }
 
@@ -612,7 +613,7 @@ year = {2017}
 abstract = {We revisit the stochastic limited-memory BFGS (L-BFGS) algorithm. By proposing a new frame- work for analyzing convergence, we theoreti- cally improve the (linear) convergence rates and computational complexities of the stochastic L- BFGS algorithms in previous works. In addi- tion, we propose several practical acceleration strategies to speed up the empirical performance of such algorithms. We also provide theoretical analyses for most of the strategies. Experiments on large-scale logistic and ridge regression prob- lems demonstrate that our proposed strategies yield significant improvements via-`a-vis compet- ing state-of-the-art algorithms.},
 author = {Zhao, Renbo and Haskell, William B. and Tan, Vincent Y. F.},
 pages = {740-749},
-title = {Stochastic L-BFGS Revisited: Improved Convergence Rates and Practical Acceleration Strategies},
+title = {Stochastic L-{BFGS} Revisited: Improved Convergence Rates and Practical Acceleration Strategies},
 year = {2017}
 }
 
